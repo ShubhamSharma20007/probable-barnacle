@@ -1,0 +1,52 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  /* video{
+    width: 100vw;
+    height: 600px;
+} */
+  
+.images4 {
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto; /* Add horizontal scroll when necessary */
+}
+
+.images4 img {
+  display: inline-block;
+  max-width: 100%; /* Ensure images resize responsively */
+  height: auto; /* Maintain aspect ratio */
+  flex: 1 0 auto; /* Allow images to shrink and grow as needed */
+
+}
+
+.new-tuti{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.distributor{
+  margin: 0px 45px;
+}
+
+.new-cta{
+  background-color: #282438 !important;
+}
+
+.distributor img:hover{
+  transition: ease-in 0.6s;
+  font-size: 90px;
+  transform: scale(1.8);
+}
+
+
+
+
+@media screen and (max-width: 994px) {
+  .cta_content.new-tuti {
+    display: flex;
+    flex-direction: column !important;
+  }
+}

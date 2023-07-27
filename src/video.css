@@ -1,0 +1,9 @@
+*{
+    overflow-x: hidden;
+}
+video{
+    width: 100vw;
+    height: 600px;
+  
+}
+

@@ -1,0 +1,284 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.warehouse-left-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.warehouse-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.warehouse-right-container img {
+    animation: animation 2s infinite alternate-reverse forwards;
+}
+
+.umbrella-img {
+    position: absolute;
+    left: -1px;
+    bottom: 40px;
+    animation: umbrella-animation 2s infinite alternate-reverse forwards;
+}
+
+.rainbow {
+    position: absolute;
+    left: -40px;
+    top: 30px;
+    animation: curveline-two 12s infinite alternate forwards;
+    overflow: hidden;
+}
+
+.snake-line-container {
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+}
+
+.snake-line-container {
+    animation: curveline 8s infinite alternate-reverse forwards;
+}
+
+.cards-container {
+    justify-content: space-evenly;
+    padding: 10px 5px;
+    align-items: center;
+}
+
+.first-context {
+    padding: 20px 25px !important;
+    background-color: #31303F;
+    border-radius: 25px;
+    margin: 10px 5px;
+}
+
+.header-section {
+    display: block;
+    margin: 30px 0px;
+    text-align: start;
+}
+
+.header-section i {
+    text-align: center;
+    color: rgb(146, 74, 74);
+}
+
+.header-section h3 {
+    color: white;
+    margin: auto 10px;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.address {
+    text-align: start;
+    color: white;
+    text-transform: capitalize;
+    margin: 15px 5px;
+    letter-spacing: 1.2px;
+    font-weight: 100;
+}
+
+.person-name {
+    display: flex;
+    align-items: center;
+    margin: 20px 5px;
+}
+
+.person-name p {
+    margin: auto 0px;
+    color: white;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.address p {
+    color: white;
+}
+
+.cards-container {
+    margin: 20px;
+}
+
+.my-cards {
+    margin: 20px;
+}
+
+.second-context {
+    background-color: #31303F;
+    border-radius: 25px;
+    margin: 10px 5px;
+    padding: 20px 25px !important;
+}
+
+.third-context {
+    background-color: #31303F;
+    padding: 20px 25px !important;
+    border-radius: 25px;
+    margin: 10px 5px;
+    box-shadow: 10px 2px 6px -3px gray
+}
+
+.first-context {
+    background-color: #31303F;
+    border-radius: 25px;
+    margin: 30px;
+    box-shadow: 10px 2px 6px -3px gray
+}
+
+.second-context {
+    border-radius: 25px;
+    margin: 10px 27px;
+    box-shadow: 10px 2px 6px -3px gray
+}
+
+.third-context {
+    background-color: #31303F;
+    border-radius: 25px;
+    margin: 10px 27px;
+    box-shadow: 10px 2px 6px -3px gray
+}
+
+.cards-container {
+    padding: 10px 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.jaipur-container h3 {
+    color: hotpink;
+}
+
+.hyderabad-container h3 {
+    color: orange !important;
+}
+
+.alwar-container h3 {
+    color: yellowgreen;
+}
+
+.ludhiana-container h3 {
+    color: lightcoral;
+}
+
+.bhiwandi-container h3 {
+    color: lightskyblue;
+}
+
+.ahmedabad-container h3 {
+    color: lightgoldenrodyellow;
+}
+
+.chennai-container h3 {
+    color: lightseagreen;
+}
+
+.fa-phone,
+.fa-user {
+    color: white;
+}
+
+.first-context:hover .fa-location-dot {
+    transform: translateY(-10px);
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+
+.first-context:hover {
+    background-color: rgb(41, 38, 38);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11), 0 15px 24px rgb(216, 216, 225);
+}
+
+.second-context:hover .fa-location-dot {
+    transform: translateY(-10px);
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+
+.second-context:hover {
+    background-color: rgb(41, 38, 38);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11), 0 15px 24px rgb(216, 216, 225);
+}
+
+.third-context:hover .fa-location-dot {
+    transform: translateY(-10px)
+}
+
+.third-context:hover {
+    background-color: rgb(41, 38, 38);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11), 0 15px 24px rgb(216, 216, 225);
+}
+
+@keyframes animation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes umbrella-animation {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-20px);
+        right: 20px;
+    }
+}
+
+@keyframes curveline {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-20px);
+        margin-top: 40px;
+    }
+    100% {
+        transform: translateX(-50px);
+        margin-right: 20px;
+    }
+}
+
+@keyframes curveline-two {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(20px);
+        margin-top: 20px;
+    }
+    70% {
+        transform: translateX(50px);
+        margin-right: 40px;
+    }
+    100% {
+        transform: translateX(90px);
+        margin-right: 60px;
+    }
+}
